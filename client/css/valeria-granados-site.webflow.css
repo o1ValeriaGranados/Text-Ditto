@@ -1,0 +1,255 @@
+.section {
+  min-height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 20vh 60px;
+  background-color: #d5f7ff;
+  font-family: 'Droid Serif', serif;
+}
+
+.body {
+  min-height: 100px;
+}
+
+.my-container {
+  overflow: scroll;
+  max-width: 1160px;
+}
+
+._1my-container {
+  display: block;
+  max-width: 1160px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.text-field {
+  max-width: 30%;
+}
+
+.submit-button {
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  flex: 0 auto;
+  background-color: #00a510;
+}
+
+.heading {
+  font-family: Bitter, serif;
+  font-size: 50px;
+  line-height: 55px;
+}
+
+.paragraph {
+  min-width: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-family: 'Droid Serif', serif;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.paragraph-2 {
+  margin-top: 10px;
+  font-family: 'Droid Serif', serif;
+}
+
+.left-div-block {
+  min-width: 400px;
+}
+
+.flexbox-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.div-block {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.div-block-2 {
+  width: 50%;
+  height: 500px;
+  margin: auto;
+  padding: 40px;
+  background-color: #d5f7ff;
+}
+
+.text-block {
+  margin-bottom: 10px;
+  font-family: 'Droid Serif', serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.heading-2 {
+  display: block;
+  align-items: center;
+  font-family: 'Droid Serif', serif;
+  text-align: center;
+}
+
+.text-block-2 {
+  margin-bottom: 5px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.html-embed {
+  height: 38px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.submit-button-2 {
+  width: 100%;
+  background-color: #00a510;
+}
+
+.div-block-3 {
+  width: 100%;
+  height: 100px;
+}
+
+.div-block-4 {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.div-block-5 {
+  display: block;
+  width: 50%;
+  height: 500px;
+  margin: auto;
+  padding: 40px;
+  background-color: #d5f7ff;
+}
+
+.image-2 {
+  display: block;
+  text-align: right;
+}
+
+.text-block-3 {
+  margin-top: 20px;
+  font-family: 'Droid Serif', serif;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.div-block-6 {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.div-block-7 {
+  width: 50%;
+  height: 500px;
+  margin: auto;
+  padding: 40px;
+  background-color: #d5f7ff;
+}
+
+.heading-3 {
+  font-family: 'Droid Serif', serif;
+}
+
+@media screen and (max-width: 991px) {
+  .section {
+    min-height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .form {
+    display: flex;
+  }
+
+  .flexbox-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image {
+    margin-left: 0px;
+  }
+
+  .div-block-2 {
+    width: 75%;
+    height: auto;
+  }
+
+  .text-block-3 {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  .text-field {
+    width: auto;
+    max-width: 100%;
+  }
+
+  .image {
+    display: block;
+    margin-left: 0px;
+  }
+
+  .heading-2 {
+    text-align: center;
+  }
+
+  .heading-3 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .section {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .div-block-2 {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .heading-2 {
+    text-align: center;
+  }
+}
+
